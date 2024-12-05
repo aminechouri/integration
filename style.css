@@ -1,130 +1,25 @@
+html, body{
+  font-family: "Darker Grotesque", sans-serif !important;
+}
+h1,h2{
+  font-family: "Darker Grotesque", sans-serif !important;
+}
+span,p{
+  font-family: "Darker Grotesque", sans-serif !important;
+  margin: 0;
+}
 .valeurs {
     margin: 90px 0;
 }
 
-.hero-wrapper {
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 50px;
-    background-position: center;
-    height: 100vh;
-    overflow: hidden;
 
-    
-}
-#videoBackground {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-  }
-.service-wrapper {
-    background-image: linear-gradient(to left, #000105 69%, #2e479b 100%);
-    background-color: #20316d;
-    padding-top: 150px;
-    padding-bottom: 80px;
-    margin-top: -150px;
-}
 
 .hero-wrapper .row {
     align-items: center;
 }
 
-.hero-wrapper .title h2 {
-    color: white;
-    font-size: 50px;
-    line-height: 70px;
-    font-weight: 600px;
-    margin-bottom: 10px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
 
-.hero-wrapper .desc p {
-    color: white;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 300px;
-    margin-bottom: 25px;
-}
 
-.valeur {
-    background-color: #eef1f9;
-    border-radius: 24px;
-    padding: 25px;
-    text-align: center;
-    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.15);
-}
-
-.valeur .title h2 {
-    color: #2253ff;
-    height: 100px;
-    font-size: 50px;
-    line-height: 42px;
-    font-weight: 600;
-}
-
-.valeur .title div {
-    height: 200px;
-}
-
-.valeur .title .first-title {
-    margin-left: 37px;
-}
-
-.valeur .title .second-title {
-    margin-right: 25px;
-}
-
-.services .header {
-    margin-bottom: 70px;
-}
-
-.services .service-heading h2 {
-    background-image: linear-gradient(to left, #93979b 0%, #97bdea 100%);
-    -webkit-background-clip: text;
-    color: transparent;
-    text-transform: uppercase;
-    line-height: 1;
-    letter-spacing: 10px;
-    font-weight: 700;
-    font-size: 110px;
-    text-align: center;
-    margin-bottom: 10px;
-    font-family: monospace;
-}
-
-.services .service-desc p {
-    color: #909faf;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 300px;
-    text-align: center;
-}
-
-.card-service .title h2 {
-    color: white;
-    font-size: 30px;
-    line-height: 24px;
-    font-weight: 700;
-    height: 120px;
-    letter-spacing: -2px;
-    font-family: monospace;
-    text-align: center;
-    font-weight: 500;
-    padding: 10px;
-}
-
-.card-service {
-    background-color: #3f60af;
-    padding: 25px;
-    border-radius: 30px;
-}
-
-.card-service .image img {
-    width: 100%;
-}
 
 .partner-wrapper .title {
     text-align: center;
@@ -155,140 +50,156 @@
     width: 100%;
 }
 
-
-.locations {
-    position: relative;
-  }
-  
-  .locations img {
-    margin: auto;
+.items .item{
+    background-color: #F4F5FB;
+    border-radius: 20px;
+    padding: 25px;
+}
+.items .item .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.items .item .header .title h2{
+    color: #2253FF;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.items .item .thumbnail img{
     width: 100%;
-    max-width: 100%;
-  }
-  
-  .location_dot {
-    display: block;
-    width: 7px;
-    height: 7px;
-    background-color: #0ff;
-    border-radius: 100%;
-    position: absolute;
-    cursor: pointer;
-    box-shadow: 1px 1px 11px 2px #00ffff;
-    z-index: 1;
-    text-decoration: none;
-  }
-  
-  .location_dot::before {
-    content: "";
-    position: absolute;
-   top: -30px;
-      left: -30px;
-      right: -20px;
-      bottom: -20px;
-    background-color: transparent;
-    border-radius: 50%;
-    z-index: -1;
-    width: 68px;
-      height: 68px;
-    background:radial-gradient(50% 50% at 50% 50%,rgba(0,255,255,.15) 0,transparent 100%);
-  }
-  
-  .dot_dubai {
-    top: 43%;
-    left: 55%;
-  }
-  
-  .dot_amsterdam {
-    top: 36%;
-    left: 49%;
-  }
-  
-  .location_info {
-    position: absolute;
-    transform: translateX(-50%);
-    text-align: center;
-    color: #fff;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.69) 0%, rgba(153, 153, 153, 0.69) 100%); 
-    border-radius: 45px;
-    padding: 10px;
-    display: flex !important
-    ;
-        align-items: center;
-  }
-.info_dubai{
-  top: 120px;
-  right: 13%;
 }
-.info_london{
-  left: 37%;
-  top: 42%;
-
+.prestation-wrapper{
+    margin: 80px 40px 80px 40px;
 }
-.info_casa{
-left: 35%;
-top: 3%;  
+.newsletter-wrapper{
+    margin: 80px 40px 80px 40px;
 }
-.info_paris{
-  left: 40%;
-  bottom: 20%;
+.line_height{
+    line-height: 30px;
+}
+.page-heading .title h2{
+    color: #2253FF;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.page-heading .title span{
+    color: #717171;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.nav-pills .nav-link{
+    border: none;
+    margin: 0 15px;
+    background-color: #F4F5FB;
+    color: rgba(34, 83, 255, 0.26);
+    padding: 5px 15px;
+}
+.nav-pills .nav-link.active{
+    border: none;
 }
 
-.info_lisbonne{
-  bottom: 30%;
-  right: 22%;
+.content-wrapper{
+    margin-top: 40px;
 }
-.info_burg{
-left: 15%;
-top: 10%;
+.toolbar{
+    margin-top: 40px;
 }
-  .location_info img {
-    width: 30px;
-    opacity: 0;
-    transition: all 1s ease;
-    transform: translateY(10px);
-    animation: fadeUp 0.6s ease forwards;
-  }
-  
-  .location_info span {
-    opacity: 0;
-    transition: all 1.6s ease;
-    transform: translateY(10px);
-    animation: fadeUp 0.6s ease forwards;
-    animation-delay: 0.2s;
-    margin-top: 0;
+.page-heading{
+    width: 30%;
+}
+.newsletter{
+    background-color: #2253FF;
+    padding:  5px;
+    margin-bottom: 60px;
+}
+.newsletter-wrapper .title h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.newsletter-wrapper .desc span{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.group-input{
+    position: relative;
+}
+.group-input .input-email input{
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius:  6px 0 0 6px;
+}
+.group-input .input-email input::placeholder{
+    color: white;
+}
+.group-input .submit button{
+    height: 60px;
+    color: #4A3AFF;
+    border: none;
+    border-radius: 0 6px 6px 0;
     font-weight: 600;
-  }
-  
-  @keyframes fadeUp {
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .locations{
-      padding-top:20px;
-    }
-    .location_dot {
-      width: 14px;
-      height: 14px;
-    }
-  
-    .location_info img {
-      width: 70px;
-    }
-  
-    .locations {
-      width: calc(100% + 208px);
-      margin: auto;
-      margin-left: -100px;
-      overflow-x: hidden;
-    }
-  
-    .overflowHidden_onmobile {
-      overflow: hidden;
-    }
-  }
-  
+    padding: 30px;
+    line-height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.page-bread{
+    background-image: url('/assets/images/bg-details.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+.page-bread .title{
+    margin: 35px;
+}
+.page-bread .title h2{
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.blocs-details .title h2{
+    color: #2253FF;
+    font-size: 80px;
+    font-weight: 700;
+}
+.blocs-details .desc p{
+    font-size: 24px;
+    color: #121028;
+}
+.blocs-details .row{
+    align-items: center;
+}
+.blocs-details .thumb img{
+    width: 70%;
+    
+}
+.blocs-details .thumb{
+    text-align: center;
+}
+.blocs{
+    margin: 80px 40px 80px 40px;
+}
+.highlight{
+    color: #2253FF;
+    font-weight: 700;
+}
+.blocs-details .bloc{
+    margin: 40px 0;
+}

@@ -1,372 +1,416 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
 
-<link rel="stylesheet" href="/assets/js/owl.theme.default.css">
-<link rel="stylesheet" href="/assets/js/owl.theme.default.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="carousel.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="about-banner">
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    
 
-        <video autoplay muted loop class="video-background" id="videoBackground">
-            <source src="/assets/images/gifBannerJoin.mp4" type="video/mp4">
-        </video>
-
-        <!-- <img src="/assets/images/fallback-img.png" class="video-background fallback-image" id="fallbackImage"
-            alt="Fallback Image"> -->
-
-        <section class="hero" style="margin-top: 0;">
-            <div class="hero-wrapper">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
-                            <div class="content-wrapper">
-                                <div class="title">
-                                    <h2>Qui Sommes nous</h2>
-                                </div>
-                                <div class="desc lead">
-                                    <p>
-                                        JPG Consulting Partners est une société de conseil spécialisée dans les métiers de
-                                        la Banque | Finance| Assurance | Énergie & Télécom.
-                                    </p>
-                                    <p>
-                                        Grâce à ses collaborateurs et son réseau d'experts, JPG Consulting Partners
-                                        accompagne les acteurs majeurs de finance dans les métiers du risque, du
-                                        Réglementaire. </p>
-                                    <p>
-                                        JPG Consulting Partners intervient également dans la région Middle East dans les
-                                        matières premières énergétiques. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6">
-                            <div class="image-wrapper">
-                                <div class="image-bg">
-                                    <img src="/assets/images/man.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
- 
-
-        <section class="valeurs">
-            <div class="valeur-wrapper">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="valeur">
-                                <div class="title">
-                                    <h2><span>Collège</span> <br><span class="first-title">d'Experts</span></h2>
-                                </div>
-                                <div class="icon">
-                                    <img src="assets/images/seo-expert-svgrepo-com 1.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="valeur">
-                                <div class="title">
-                                    <h2><span>Meilleur</span> <br><span class="second-title">service</span></h2>
-
-                                </div>
-                                <div class="icon">
-                                    <img src="assets/images/页面-1.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="valeur">
-                                <div class="title">
-                                    <h2>Assistance</h2>
-                                </div>
-                                <div class="icon">
-                                    <img src="assets/images/Group 17.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="services">
-            <div class="service-wrapper">
-
-                <div class="container">
-
-                    <div class="header">
-                        <div class="service-heading">
-                            <h2> Services </h2>
-                        </div>
-
-                        <div class="service-desc lead">
-                            <p> JPG Consulting Partners est une <br>société de conseil spécialisée </p>
-                        </div>
-                    </div>
-
-
-
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="card-service">
-                                    <div class="title">
-                                        <h2>JPG consulting partners</h2>
-                                    </div>
-
-                                 
-                                    <div class="image">
-                                        <img src="assets/images/services1.png" alt="">
-                                    </div>
-
-
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card-service">
-                                    <div class="title">
-                                        <h2><span>JPG IT</span> <br><span>Consulting</span></h2>
-                                    </div>
-                                    <div class="image">
-                                        <img src="assets/images/services2.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card-service">
-                                    <div class="title">
-                                        <h2>JPG Condulting Services & Advisory</h2>
-                                    </div>
-                                    <div class="image">
-                                        <img src="assets/images/services3.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                </div>
-            </div>
-        </section>
-
-
-
-       
-
-        <section class="partners">
-            <div class="partner-wrapper">
-                <div class="title">
-                    <h2>Nos partenaires</h2>
-                </div>
-                <div class="container-fluid">
-        
-                  <div class="slider">
-                    <div class="slide-track">
-                        <div class="slide">
-                            <img src="/" height="100" width="200" alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="/assets/images/slide1.png"  alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/slide2.png"  alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/slide3.png"  alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/slide4.png"  alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="assets/images/slide5.png"  alt="" />
-                        </div>
-                      
-                    </div>
-                </div>
-                  </div>
-            </div>
-        </section>
-
-        <section class="maps">
-            <div class="maps-wrapper">
-                <div class="container-fluid">
-                    <br><br>
-                    <div class="overflowHidden_onmobile">
-                      <div class="locations">
-                        <img src="/assets/images/maps.png" alt="">
-                  
-                        <!-- Istanbul dot with location info inside -->
-                        <div class="country">
-                          <div class="location_info info_dubai">
-                            <img src="/assets/images/Frame 148.png" alt="Istanbul Icon">
-                            <span>Dubai</span>
+    <section class="prestations">
+      <div class="prestation-wrapper">
+        <div class="page-heading">
+          <div class="title">
+            <h2>Nos Prestations !</h2>
+            <span
+              >Selon votre profil et votre mission, nous trouverons le poste qui
+              vous convient le plus !</span
+            >
+          </div>
+        </div>
+        <div class="content">
+          <div class="toolbar">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                >
+                  JPG COnsulting IT
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  JPG Consulting Financial services & Advisory
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                >
+                  JPG Consulting Partners
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="pills-contact-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                >
+                  JPG COnsulting Energy & Commodity
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+              tabindex="0"
+            >
+              <div class="content-wrapper">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="items">
+                      <div class="item">
+                        <div class="header">
+                          <div class="title">
+                            <h2>Consulting</h2>
+                          </div>
+                          <div class="link">
+                            <a href="/details.html"> <img src="/assets/images/link.png" alt="" /></a>
                           </div>
                         </div>
-                  
-                        <!-- france dot with location info inside -->
-                        <div class="country">
-                          <div class="location_info info_london">
-                            <img src="/assets/images/en.png" alt="France Icon">
-                            <span>Londres</span>
-                          </div>
+                        <div class="thumbnail">
+                          <img
+                            src="/assets/images/prestation/service1.png"
+                            alt=""
+                          />
                         </div>
-
-                        <div class="country">
-                            <div class="location_info info_casa">
-                              <img src="/assets/images/casa.png" alt="France Icon">
-                              <span>Casablanca</span>
-                            </div>
-                          </div>
-
-                          <div class="country">
-                            <div class="location_info info_paris">
-                              <img src="/assets/images/paris.png" alt="France Icon">
-                              <span>Paris</span>
-                            </div>
-                          </div>
-
-
-                          <div class="country">
-                            <div class="location_info info_lisbonne">
-                              <img src="/assets/images/Lisbonne.png" alt="France Icon">
-                              <span>Lisbonne</span>
-                            </div>
-                          </div>
-
-                          <div class="country">
-                            <div class="location_info info_burg">
-                              <img src="/assets/images/luxembourg.png" alt="France Icon">
-                              <span>Luxembourg</span>
-                            </div>
-                          </div>
-
                       </div>
                     </div>
                   </div>
-                  
+                  <div class="col-lg-4">
+                    <div class="items">
+                      <div class="item">
+                        <div class="header">
+                          <div class="title">
+                            <h2>Dévelopement</h2>
+                          </div>
+                          <div class="link">
+                            <a href="/details.html"> <img src="/assets/images/link.png" alt="" /></a>
+                          </div>
+                        </div>
+                        <div class="thumbnail">
+                          <img
+                            src="/assets/images/prestation/service2.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="items">
+                      <div class="item">
+                        <div class="header">
+                          <div class="title">
+                            <h2 class="line_height">Gouvernance des données</h2>
+                          </div>
+                          <div class="link">
+                           <a href="/details.html"> <img src="/assets/images/link.png" alt="" /></a>
+                          </div>
+                        </div>
+                        <div class="thumbnail">
+                          <img
+                            src="/assets/images/prestation/service3.png"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+              tabindex="0"
+            >
+            <div class="content-wrapper">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="items">
+                    <div class="item">
+                      <div class="header">
+                        <div class="title">
+                          <h2>Managment des risques</h2>
+                        </div>
+                        <div class="link">
+                          <a href="/finance.html"> <img src="/assets/images/link.png" alt="" /></a>
+                        </div>
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="/assets/images/finance/Rectangle 32 (3).png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="items">
+                    <div class="item">
+                      <div class="header">
+                        <div class="title">
+                          <h2>Conformité</h2>
+                        </div>
+                        <div class="link">
+                          <a href="/finance.html"> <img src="/assets/images/link.png" alt="" /></a>
+                        </div>
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="/assets/images/prestation/service2.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="items">
+                    <div class="item">
+                      <div class="header">
+                        <div class="title">
+                          <h2 class="line_height">Régémentation
+                            Prudentielle</h2>
+                        </div>
+                        <div class="link">
+                          <a href="/finance.html"> <img src="/assets/images/link.png" alt="" /></a>
+                        </div>
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="/assets/images/prestation/service3.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
-    </div>
+                <div class="col-lg-4">
+                  <div class="items">
+                    <div class="item">
+                      <div class="header">
+                        <div class="title">
+                          <h2 class="line_height">Asset Managment</h2>
+                        </div>
+                        <div class="link">
+                          <img src="/assets/images/link.png" alt="" />
+                        </div>
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="/assets/images/prestation/service3.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-contact"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+              tabindex="0"
+            >
+            <div class="content-wrapper">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="items">
+                    <div class="item">
+                      <div class="header">
+                        <div class="title">
+                          <h2>Portage Salarial</h2>
+                        </div>
+                        <div class="link">
+                         <a href="/donnes.html"> <img src="/assets/images/link.png" alt="" /></a>
+                        </div>
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="/assets/images/finance/Rectangle 32 (4).png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-disabled"
+              role="tabpanel"
+              aria-labelledby="pills-disabled-tab"
+              tabindex="0"
+            >
+            <div class="content-wrapper">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="items">
+                    <div class="item">
+                      <div class="header">
+                        <div class="title">
+                          <h2>Consulting</h2>
+                        </div>
+                        <div class="link">
+                          <img src="/assets/images/link.png" alt="" />
+                        </div>
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="/assets/images/prestation/service1.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="items">
+                    <div class="item">
+                      <div class="header">
+                        <div class="title">
+                          <h2>Dévelopement</h2>
+                        </div>
+                        <div class="link">
+                          <img src="/assets/images/link.png" alt="" />
+                        </div>
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="/assets/images/prestation/service2.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="items">
+                    <div class="item">
+                      <div class="header">
+                        <div class="title">
+                          <h2 class="line_height">Gouvernance des données</h2>
+                        </div>
+                        <div class="link">
+                          <img src="/assets/images/link.png" alt="" />
+                        </div>
+                      </div>
+                      <div class="thumbnail">
+                        <img
+                          src="/assets/images/prestation/service3.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<script>
-    const locationDots = document.querySelectorAll('.location_dot');
-let isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0; // Detect mobile/touch devices
-let infoShown = false; // Variable to track if info is shown for mobile
-let currentlyOpenDot = null; // Variable to track which dot is currently open
+    <section class="newsletter">
+      <div class="newsletter-wrapper">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="title">
+              <h2>Subscribe to our newsletter</h2>
+            </div>
+            <div class="desc">
+              <span
+                >Abonnez-vous aux mises à jour : restez informé des dernières
+                mises à jour des investisseurs, des résultats financiers et des
+                annonces en vous abonnant à notre newsletter.</span
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="group-input">
+              <div class="input-email">
+                <input type="email" name="email" id="email" placeholder="Email" class="form-control">
+              </div>
+              <div class="submit">
+                <button type="submit" class="abonner">S'abonner</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-// Function to show location info
-function showLocationInfo(dot) {
-  // Hide the info of the previously opened dot
-  if (currentlyOpenDot && currentlyOpenDot !== dot) {
-    hideLocationInfo(currentlyOpenDot);
-  }
-  
-  const locationInfo = dot.querySelector('.location_info');
-  locationInfo.style.display = 'block'; // Show location info
-  infoShown = true; // Mark info as shown
-  currentlyOpenDot = dot; // Track the currently open dot
-}
-
-
-
-// Function to toggle info for mobile
-function toggleLocationInfo(dot) {
-  const locationInfo = dot.querySelector('.location_info');
-  
-  if (locationInfo.style.display === 'block') {
-    hideLocationInfo(dot);
-  } else {
-    showLocationInfo(dot);
-  }
-}
-
-// Add event listeners for both desktop hover and mobile touch/tap
-locationDots.forEach(dot => {
-  if (isMobile) {
-    // Mobile: toggle info on quick tap (touchstart for faster response)
-    dot.addEventListener('touchstart', function(event) {
-      event.preventDefault();
-      toggleLocationInfo(this);
-    });
-  } else {
-    // Desktop: show on hover
-    dot.addEventListener('mouseenter', function() {
-      showLocationInfo(this);
-    });
-
-    // Desktop: hide on mouse leave
-    dot.addEventListener('mouseleave', function() {
-      hideLocationInfo(this);
-    });
-  }
-});
-
-// Close info when tapping outside the location dots (for mobile)
-document.addEventListener('touchstart', function(event) {
-  if (isMobile && infoShown) {
-    const isClickInsideDot = Array.from(locationDots).some(dot => dot.contains(event.target));
-
-    if (!isClickInsideDot) {
-      locationDots.forEach(dot => hideLocationInfo(dot));
-    }
-  }
-});
-
-// Close info when clicking outside the location dots (for desktop)
-document.addEventListener('click', function(event) {
-  if (!isMobile && infoShown) {
-    const isClickInsideDot = Array.from(locationDots).some(dot => dot.contains(event.target));
-
-    if (!isClickInsideDot) {
-      locationDots.forEach(dot => hideLocationInfo(dot));
-    }
-  }
-});
-
-</script>
-<script>
-  $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
-</script>
-<script src="/assets/js/owl.carousel.min.js"></script>
-
-
-
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-
-
-
-   
