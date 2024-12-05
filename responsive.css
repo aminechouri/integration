@@ -1,0 +1,26 @@
+@media(max-width:991px){
+    .partner-wrapper .logos{
+        flex-direction: column;
+    }
+    .hero-wrapper .image-bg img{
+        width: 100%;
+    }
+    .services .service-heading h2{
+        font-size: 32px !important;
+    }
+    .valeur{
+        margin-bottom: 20px;
+    }
+    .valeur .title h2 {
+font-size: 30px !important;
+    }
+    .valeur .icon img{
+        width: 75px;
+    }
+    .card-service{
+        margin-bottom: 20px;
+    }
+    .partner-wrapper .title h2{
+        font-size: 32px !important;
+    }
+}

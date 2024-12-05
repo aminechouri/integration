@@ -1,0 +1,294 @@
+.valeurs {
+    margin: 90px 0;
+}
+
+.hero-wrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+
+    
+}
+#videoBackground {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+.service-wrapper {
+    background-image: linear-gradient(to left, #000105 69%, #2e479b 100%);
+    background-color: #20316d;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    margin-top: -150px;
+}
+
+.hero-wrapper .row {
+    align-items: center;
+}
+
+.hero-wrapper .title h2 {
+    color: white;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.hero-wrapper .desc p {
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300px;
+    margin-bottom: 25px;
+}
+
+.valeur {
+    background-color: #eef1f9;
+    border-radius: 24px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+.valeur .title h2 {
+    color: #2253ff;
+    height: 100px;
+    font-size: 50px;
+    line-height: 42px;
+    font-weight: 600;
+}
+
+.valeur .title div {
+    height: 200px;
+}
+
+.valeur .title .first-title {
+    margin-left: 37px;
+}
+
+.valeur .title .second-title {
+    margin-right: 25px;
+}
+
+.services .header {
+    margin-bottom: 70px;
+}
+
+.services .service-heading h2 {
+    background-image: linear-gradient(to left, #93979b 0%, #97bdea 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 10px;
+    font-weight: 700;
+    font-size: 110px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+.services .service-desc p {
+    color: #909faf;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300px;
+    text-align: center;
+}
+
+.card-service .title h2 {
+    color: white;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 700;
+    height: 120px;
+    letter-spacing: -2px;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.card-service {
+    background-color: #3f60af;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+.card-service .image img {
+    width: 100%;
+}
+
+.partner-wrapper .title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.partner-wrapper .title h2 {
+    color: #2253ff;
+    font-size: 70px;
+    line-height: 55px;
+    font-weight: 700;
+}
+
+.partner-wrapper .logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.partner-wrapper .logos img{
+    width: 300px;
+}
+.maps-wrapper {
+    text-align: center;
+}
+
+.maps-wrapper .img {
+    width: 100%;
+}
+
+
+.locations {
+    position: relative;
+  }
+  
+  .locations img {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .location_dot {
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-color: #0ff;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    box-shadow: 1px 1px 11px 2px #00ffff;
+    z-index: 1;
+    text-decoration: none;
+  }
+  
+  .location_dot::before {
+    content: "";
+    position: absolute;
+   top: -30px;
+      left: -30px;
+      right: -20px;
+      bottom: -20px;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: -1;
+    width: 68px;
+      height: 68px;
+    background:radial-gradient(50% 50% at 50% 50%,rgba(0,255,255,.15) 0,transparent 100%);
+  }
+  
+  .dot_dubai {
+    top: 43%;
+    left: 55%;
+  }
+  
+  .dot_amsterdam {
+    top: 36%;
+    left: 49%;
+  }
+  
+  .location_info {
+    position: absolute;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.69) 0%, rgba(153, 153, 153, 0.69) 100%); 
+    border-radius: 45px;
+    padding: 10px;
+    display: flex !important
+    ;
+        align-items: center;
+  }
+.info_dubai{
+  top: 120px;
+  right: 13%;
+}
+.info_london{
+  left: 37%;
+  top: 42%;
+
+}
+.info_casa{
+left: 35%;
+top: 3%;  
+}
+.info_paris{
+  left: 40%;
+  bottom: 20%;
+}
+
+.info_lisbonne{
+  bottom: 30%;
+  right: 22%;
+}
+.info_burg{
+left: 15%;
+top: 10%;
+}
+  .location_info img {
+    width: 30px;
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(10px);
+    animation: fadeUp 0.6s ease forwards;
+  }
+  
+  .location_info span {
+    opacity: 0;
+    transition: all 1.6s ease;
+    transform: translateY(10px);
+    animation: fadeUp 0.6s ease forwards;
+    animation-delay: 0.2s;
+    margin-top: 0;
+    font-weight: 600;
+  }
+  
+  @keyframes fadeUp {
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .locations{
+      padding-top:20px;
+    }
+    .location_dot {
+      width: 14px;
+      height: 14px;
+    }
+  
+    .location_info img {
+      width: 70px;
+    }
+  
+    .locations {
+      width: calc(100% + 208px);
+      margin: auto;
+      margin-left: -100px;
+      overflow-x: hidden;
+    }
+  
+    .overflowHidden_onmobile {
+      overflow: hidden;
+    }
+  }
+  
